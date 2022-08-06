@@ -38,7 +38,7 @@ public class EmployeeWages {
                 TOTALWAGES = WAGESPERHOUR * PARTIMEHOURS;
                 System.out.println("Wages :" + TOTALWAGES);
             }
-//            default -> System.out.println("Employee is absent");
+            default -> System.out.println("Employee is absent");
         }
 
         }
